@@ -50,7 +50,7 @@ def get_concatenated_string(prompt):
 
 	# Define headers
 	headers = {
-	    "Authorization": "Token r8_KlPo3vNtrJkuFLvOquoBsYEJsImgH0I22XeEz",
+	    "Authorization": "Token here-was-an-apikey-maybe-for-replicate-find-it-in-downloads",
 	    "Content-Type": "application/json"
 	}
 
