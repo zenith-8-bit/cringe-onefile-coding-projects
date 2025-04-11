@@ -1,3 +1,4 @@
+#code tries to find openai api key
 import random
 import string
 import openai
