@@ -1,7 +1,7 @@
 import platform
 import wifi
 import os
-
+ 
 def scan_for_networks():
     # Scan for available networks
     if platform.system() == 'Windows':
