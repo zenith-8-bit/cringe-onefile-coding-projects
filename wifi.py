@@ -82,4 +82,4 @@ with open('Top_1m_Passwords.txt','r') as f:
 	number += 1
 	for line in f:
 		main(ss,line,number)
-
+   
