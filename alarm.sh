@@ -1,0 +1,1 @@
+clear; for ((i=90; i>0; i--)); do printf "\rTime left: %02d:%02d " $((i/60)) $((i%60)); sleep 60; if (( i % 15 == 0 )); then paplay /usr/share/sounds/freedesktop/stereo/complete.oga; fi; done; paplay /usr/share/sounds/freedesktop/stereo/complete.oga; paplay /usr/share/sounds/freedesktop/stereo/complete.oga; clear
